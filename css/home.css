@@ -48,19 +48,19 @@ ol li a:hover{
     float: right;
     width: 50%;
 }
-.intropara{
+#intropara{
     margin-top: 20%;
     margin-left: 10%;
     float: left;
     width: 35%;
     color: #fff;
 }
-.intropara article h1{
+#intropara article h1{
     padding-top: 4px;
     padding-bottom: 8px;
 
 }
-.intropara article p{
+#intropara article p{
     font-size: 1em;
 }
 .btn{
