@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+.logo img{
+    margin-left: 10%;
+}
+header{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;    
+    background-color: rgba(69, 15, 77, 0.973);
+    z-index: 3;
+}
+ol {
+    float: right;
+    list-style-type: none;
+    padding: 0;
+    margin-right: 3%;
+    padding-top: 1%;
+    margin-top: -60px;
+}
+
+li {
+display: inline-block;
+    width: 100px;
+}
+li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 8px;
+    transition: 0.6s ease;
+    font-weight: bold;
+}
+ol li a:hover{
+    text-decoration: underline;
+}
+
+.firstimg{
+    margin-top: 10%;
+    float: right;
+    width: 50%;
+}
+.intropara{
+    margin-top: 20%;
+    margin-left: 10%;
+    float: left;
+    width: 35%;
+    color: #fff;
+}
+.intropara article h1{
+    padding-top: 4px;
+    padding-bottom: 8px;
+
+}
+.intropara article p{
+    font-size: 1em;
+}
+.btn{
+    border: 1px solid rgba(105, 67, 148, 0.521);
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 10px;
+    margin-left: -5px;
+    transition: 0.6s ease;
+    border-radius: 8px;
+}
+.btn1{
+    background-color: rgba(105, 67, 148, 0.521);
+    color: white
+}
+.btn2{
+    background-color:rgba(105, 67, 148, 0.521);
+    color: white;
+}
+.btn1:hover{
+    border: 1px solid rgba(25, 2, 51, 0.521);
+    background-color: rgba(49, 20, 83, 0.637);
+}
+.btn2:hover{
+    border: 1px solid rgba(25, 2, 51, 0.521);
+    background-color: rgba(49, 20, 83, 0.637);
+}
+.btn0{
+    background-color: rgba(105, 67, 148, 0.521);
+    color: white;
+}
+.btn0:hover{
+    border: 1px solid rgba(25, 2, 51, 0.521);
+    background-color: rgba(49, 20, 83, 0.637);
+}
+#downloadbtn{
+    border: 1px solid rgba(44, 32, 87, 0.685);
+    background: rgba(232, 237, 248, 0.692);
+    padding: 5px 6px;
+    transition: 0.6s ease;
+    border-radius: 8px;
+    
+}
