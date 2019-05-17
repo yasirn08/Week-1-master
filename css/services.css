@@ -1,8 +1,7 @@
-
-#serprovide{
+#serprovide {
     margin-top: 250px;
     width: 100%;
-    height:7em;
+    height: 7em;
     padding-top: 4em;
     text-align: center;
     float: left;
@@ -10,44 +9,50 @@
     background-color: rgba(69, 15, 77, 0.973);
     color: white;
 }
-.blocksleft{
+
+.blocksleft {
     padding-top: 2em;
     float: left;
     width: 40%;
     text-align: center;
     margin-left: 9.9%;
 }
-.blocksleft article{
+
+.blocksleft article {
     padding-top: 10px;
     padding-bottom: 10px;
     border: 1px solid black;
     margin-top: 1px;
     border-radius: 5px;
-} 
-.blocksright{
+}
+
+.blocksright {
     padding-top: 2em;
     float: right;
     width: 40%;
     text-align: center;
     margin-right: 9.9%;
 }
-.blocksright article{
+
+.blocksright article {
     padding-top: 10px;
     padding-bottom: 10px;
     border: 1px solid black;
     margin-top: 1px;
     border-radius: 5px;
-    
 }
-.blocksleft article:hover{
+
+.blocksleft article:hover {
     box-shadow: 0 8px 12px 0 rgba(82, 34, 92, 0.548), 0 17px 50px 0 rgba(82, 34, 92, 0.548);
     color: black;
 }
-.blocksright article:hover{
+
+.blocksright article:hover {
     box-shadow: 0 8px 12px 0 rgba(82, 34, 92, 0.548), 0 17px 50px 0 rgba(82, 34, 92, 0.548);
     color: black;
 }
-#showcase{
+
+#showcase {
     float: left;
     width: 100%;
     display: block;
@@ -58,7 +63,8 @@
     padding-bottom: 4em;
     color: white;
 }
-#pricing{
+
+#pricing {
     margin-top: 250px;
     width: 100%;
     padding-bottom: 4em;
@@ -69,7 +75,8 @@
     background-color: rgba(69, 15, 77, 0.973);
     color: white;
 }
-#pricing1{
+
+#pricing1 {
     background-color: grey;
     float: left;
     display: block;
@@ -81,16 +88,20 @@
     margin-top: 2em;
     margin-left: 10.25%
 }
-#pricing1 h2{
+
+#pricing1 h2 {
     padding-top: 2%;
 }
-#pricing1 h1{
+
+#pricing1 h1 {
     padding-top: 2%;
 }
-#pricing1 p{
+
+#pricing1 p {
     padding-top: 2%;
 }
-#pricing2{
+
+#pricing2 {
     background-color: grey;
     float: left;
     width: 25%;
@@ -101,16 +112,20 @@
     margin-top: 2em;
     margin-left: 2.25%
 }
-#pricing2 h2{
+
+#pricing2 h2 {
     padding-top: 2%;
 }
-#pricing2 h1{
+
+#pricing2 h1 {
     padding-top: 2%;
 }
-#pricing2 p{
+
+#pricing2 p {
     padding-top: 2%;
 }
-#pricing3{
+
+#pricing3 {
     background-color: grey;
     float: left;
     width: 25%;
@@ -121,50 +136,263 @@
     margin-top: 2em;
     margin-left: 2.25%
 }
-#pricing3 h2{
+
+#pricing3 h2 {
     padding-top: 2%;
 }
-#pricing3 h1{
+
+#pricing3 h1 {
     padding-top: 2%;
 }
-#pricing3 p{
+
+#pricing3 p {
     padding-top: 2%;
 }
-.btn5{
+
+.btn5 {
     border: 1px solid rgba(69, 15, 77, 0.973);
     background-color: none;
     color: rgba(69, 15, 77, 0.973);
 }
-.btn6{
+
+.btn6 {
     border: 1px solid rgba(69, 15, 77, 0.973);
     background-color: none;
     color: rgba(69, 15, 77, 0.973);
 }
-.btn7{
+
+.btn7 {
     border: 1px solid rgba(69, 15, 77, 0.973);
     background-color: none;
     color: rgba(69, 15, 77, 0.973);
 }
-.btn5:hover{
+
+.btn5:hover {
     background-color: rgba(69, 15, 77, 0.973);
     color: black;
 }
-.btn6:hover{
+
+.btn6:hover {
     background-color: rgba(69, 15, 77, 0.973);
     color: black;
 }
-.btn7:hover{
+
+.btn7:hover {
     background-color: rgba(69, 15, 77, 0.973);
     color: black;
 }
-.video{
+
+.video {
     width: 100%;
     margin-top: 10em;
     float: left;
 }
-.play-button{
+
+.play-button {
     position: relative;
     float: left;
     margin-top: -23%;
     margin-left: 45%;
+}
+
+#testimonial {
+    position: relative;
+    margin-top: -25%;
+    width: 50%;
+    margin-left: 15%;
+    text-align: center;
+    margin-bottom: 270px;
+    background: url(../img/bg/testimonial-bg.jpg) no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.description{
+    padding-left: 10%;
+    width: 70%
+}
+
+#testimonial .right-position {
+    position: relative;
+}
+
+#testimonial .testimonial-area {
+    position: absolute;
+    width: 150%;
+    z-index: 12;
+    top: 260px;
+    margin: 0px auto;
+}
+
+#testimonial #client-testimonial {
+    background-color: #fff;
+    padding: 54px;
+    -webkit-box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
+    -moz-box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
+    box-shadow: 0px 0px 25px 0px rgba(95, 95, 95, 0.24);
+}
+
+#testimonial #client-testimonial .content-inner p {
+    font-size: 24px;
+    color: #5e629c;
+    font-style: italic;
+    line-height: 35px;
+}
+
+#testimonial #client-testimonial .author-info {
+    padding-top: 26px;
+    padding-bottom: 20px;
+}
+
+#testimonial #client-testimonial .author-info h5 {
+    color: #151948;
+    font-size: 18px;
+    margin-right: 6em;
+}
+
+#testimonial #client-testimonial h5 span {
+    font-size: 16px;
+    color: #5e629c;
+    font-style: italic;
+}
+.client-thumb{
+    margin-right: 6em;
+}
+
+#testimonial #client-testimonial .owl-controls .owl-buttons div.owl-prev {
+    color: #3ecf8e;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    margin: 5px;
+    font-size: 16px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 50px;
+    background: #fff;
+    filter: Alpha(Opacity=50);
+    position: absolute;
+    left: -20px;
+    top: 48%;
+    opacity: 1;
+    border: 1px solid #ccc;
+    width: 38px;
+    height: 38px;
+    padding: 8px 0px;
+}
+
+#testimonial #client-testimonial .owl-controls .owl-buttons div.owl-next {
+    color: #3ecf8e;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    margin: 5px;
+    font-size: 16px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    border-radius: 50px;
+    background: #fff;
+    filter: Alpha(Opacity=50);
+    position: absolute;
+    right: -20px;
+    top: 48%;
+    opacity: 1;
+    border: 1px solid #ccc;
+    width: 38px;
+    height: 38px;
+    padding: 8px 0px;
+}
+
+#testimonial #client-testimonial .owl-controls .owl-buttons div.owl-prev:hover, #testimonial #client-testimonial .owl-controls .owl-buttons div.owl-next:hover {
+    color: #fff;
+    background: #3ecf8e;
+    border-color: #3ecf8e;
+}
+
+#testimonial .video-promo-content {
+    padding-top: 0;
+    padding-bottom: 300px;
+}
+
+#testimonial .video-play-button {
+    position: absolute;
+    z-index: 10;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    box-sizing: content-box;
+    display: block;
+    width: 32px;
+    height: 44px;
+    /* background: #fa183d; */
+    border-radius: 50%;
+    padding: 18px 20px 18px 28px;
+}
+
+#testimonial .video-play-button:before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    animation: pulse-border 1500ms ease-out infinite;
+}
+
+#testimonial .video-play-button:after {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: #fff;
+    border-radius: 50%;
+    transition: all 200ms;
+    opacity: 0.5;
+}
+
+#testimonial .video-play-button:hover:after {
+    background-color: #28ca81;
+}
+
+#testimonial .video-play-button:hover span {
+    border-left: 22px solid #fff;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-radius: 2px;
+}
+
+#testimonial .video-play-button span {
+    display: block;
+    position: relative;
+    z-index: 3;
+    width: 0;
+    height: 0;
+    border-left: 22px solid #3ecf8e;
+    border-top: 14px solid transparent;
+    border-bottom: 14px solid transparent;
+    border-radius: 2px;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+@keyframes pulse-border {
+    0% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+        opacity: 1;
+    }
+    100% {
+        transform: translateX(-50%) translateY(-50%) translateZ(0) scale(1.5);
+        opacity: 0;
+    }
 }
