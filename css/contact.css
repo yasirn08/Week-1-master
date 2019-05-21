@@ -128,9 +128,6 @@
     float: left;   
 }
 
-
-
-
 #end {
     background-color: #5e629c;
     width: 99.9%;
@@ -141,58 +138,6 @@
     padding-top: 3%;
     padding-bottom: 3%;
 }
-
-.widget {
-    float: center;
-    text-align: left;
-    width: 20%;
-    margin-left: 0;
-    margin-left: 65%;
-    margin-top: -24.5%;
-}
-
-.widget article {
-    line-height: 200%;
-}
-
-.widget article h2 {
-    padding-bottom: 12%;
-}
-
-.widget .subscribe-area {
-    position: relative;
-    height: 40px;
-    margin-top: 18px;
-}
-
-.widget .subscribe-area input[type=email] {
-    background: #24153c;
-    border: 1px solid #fff;
-    color: #e2e2e2;
-    font-size: 14px;
-    font-style: italic;
-    height: 38px;
-    border-radius: 5px;
-    width: 80%;
-}
-
-.widget .subscribe-area span i {
-    position: absolute;
-    border: 1px solid white;
-    border-radius: 5px;
-    right: 0;
-    width: 60px;
-    height: 26px;
-    color: #fff;
-    top: 0;
-    background: #3ecf8e;
-    display: block;
-    padding: 6px 6px;
-    font-size: 18px;
-    border-radius: 0px 4px 4px 0px;
-    padding-left: -20%;
-}
-
 #end h3 {
     text-decoration: none;
 }
