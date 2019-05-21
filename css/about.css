@@ -74,9 +74,13 @@
 
 }
 #imgtwointro{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    color: #151948;
     padding-top: 9%;
     color: black;
-    margin-top: 250px;
+    margin-top: 200px;
     width: 50%;
     margin-right: 5%;
     float: right;
