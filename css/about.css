@@ -2,6 +2,32 @@
     width: 100%;
     padding-top: 50em;
 }
+.iconfirst{
+    background: #e3fff2;
+    width: 110px;
+    height: 110px;
+    margin: 0px auto;
+    margin-bottom: 0px;
+    text-align: center;
+    display: block;
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 25px;
+}
+.iconfirst i{
+    font-size: 40px;
+    color: #3ecf8e;
+    position: relative;
+    left: 0;
+    right: 0;
+    top: 30%;
+}
+#boxtop{
+    padding-bottom: 2em;
+}
+#boxbottom{
+    text-align: center;
+}
 #firstbox{
     width: 380px;
     height: 384px;
@@ -69,7 +95,7 @@
     margin-left: 2em;
     width: 35%;
     margin-top: 180px;
-    margin-left: -350px;
+    margin-left: 50px;
     padding-right:-20%;
 
 }
