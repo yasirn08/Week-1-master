@@ -1,39 +1,45 @@
+.allbox{
+    width: 100%;
+    padding-top: 50em;
+}
 #firstbox{
-    width: 20%;
-    margin-top: 267px;
-    margin-left: 15.5%;
+    width: 380px;
+    height: 384px;
+    margin-top: 135px;
+    margin-left: 4%;
     float: left;
     display: block;
     padding-top: 2em;
     padding-bottom: 2em;
-    border: 1px solid rgba(51, 37, 54, 0.637);
-    background-color: rgba(141, 50, 141, 0.37);
-    border-radius: 30px;
+    border: 1px solid lightgrey;
+    background-color: #fff;
+    color: black;
 }
 #secondbox{
-    width: 20%;
+    width: 380px;
+    height: 384px;
     margin-top: 10%;    
     margin-left: 3.5%;
     float: left;
     display: block;
     padding-top: 2em;
     padding-bottom: 2em;
-    border: 1px solid rgba(51, 37, 54, 0.637);
-    background-color: rgba(141, 50, 141, 0.37);
-    border-radius: 30px;
+    border: 1px solid lightgrey;
+    background-color: #fff;
+    color: black;
 }
 #thirdbox{
-    width:20%;
+    width: 380px;
+    height: 384px;;
     margin-top: 10%;
     margin-left: 3.5%;
-    margin-right: 15.5%;
     float: left;
     display: block;
     padding-top: 2em;
     padding-bottom: 2em;
-    border: 1px solid rgba(51, 37, 54, 0.637);
-    background-color: rgba(141, 50, 141, 0.37);
-    border-radius: 30px;
+    border: 1px solid lightgrey;
+    background-color: #fff;
+    color: black;
 }
 #firstbox article{
     text-align: center;
@@ -45,16 +51,20 @@
     text-align: center;
 }
 #firstbox:hover{
-    box-shadow: 0 8px 12px 0 rgba(82, 34, 92, 0.548), 0 17px 50px 0 rgba(82, 34, 92, 0.548); 
+    border: 1px solid rgb(16, 168, 97); 
+    transition-duration: 1s; 
 }
 #secondbox:hover{
-    box-shadow: 0 8px 12px 0 rgba(82, 34, 92, 0.548), 0 17px 50px 0 rgba(82, 34, 92, 0.548); 
+    border: 1px solid rgb(16, 168, 97); 
+    transition-duration: 1s; 
 }
 #thirdbox:hover{
-    box-shadow: 0 8px 12px 0 rgba(82, 34, 92, 0.548), 0 17px 50px 0 rgba(82, 34, 92, 0.548); 
+    border: 1px solid rgb(16, 168, 97);
+    transition-duration: 1s; 
 }
 
 #imgtwo{
+    padding-top: 10%;
     float: left;
     margin-left: 2em;
     width: 35%;
@@ -64,6 +74,8 @@
 
 }
 #imgtwointro{
+    padding-top: 9%;
+    color: black;
     margin-top: 250px;
     width: 50%;
     margin-right: 5%;
@@ -76,4 +88,7 @@
 #imgtwointro article p {
     line-height: 150%;
     padding-bottom: 1em;
+}
+#whitearea{
+    background-color: white;
 }
