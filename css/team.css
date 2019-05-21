@@ -333,6 +333,9 @@
 .list-icon li a i{
     color: #3ecf8e;
 }
+#member:hover .list-icon li a i{
+    color:#151948;
+}
 #blogrow{
     float: left;
     width: 100%;
